@@ -1,0 +1,161 @@
+@charset "utf-8";
+/* CSS Document */
+
+blockquote, body, button, dd, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, hr, input, legend, li, ol, p, pre, td, textarea, th, ul {
+	margin:0;
+	padding:0
+}
+body, button, input, select, textarea {
+	font:12px/1.5 tahoma, arial, 'Hiragino Sans GB', \5b8b\4f53, sans-serif
+}
+h1, h2, h3, h4, h5, h6 {
+	font-size:100%;
+	
+}
+address, cite, dfn, em, var {
+	font-style:normal
+}
+
+small {
+	font-size:12px
+}
+ol, ul {
+	list-style:none
+}
+a {
+	text-decoration:none
+}
+a:hover {
+	text-decoration:underline
+}
+sup {
+	vertical-align:text-top
+}
+sub {
+	vertical-align:text-bottom
+}
+
+fieldset, img {
+	border:0;
+	vertical-align:top
+}
+button, input, select, textarea {
+	font-size:100%
+}
+table {
+	border-collapse:collapse;/* 重合的边框 合并*/
+	border-spacing:0
+}
+
+.clear {
+	clear:both;
+	height:0;
+	font-size:0;
+	overflow:hidden
+}
+.clearfix:after {
+	content:"\0020";
+	display:block;
+	height:0;
+	clear:both;
+	visibility:hidden
+}
+.clearfix {
+	clear:both;
+	zoom:1
+}
+.container{ width:1000px; margin:0 auto}
+.header{ height:198px; background:url(../images/top_Bg.jpg) no-repeat center 0, url(../images/body.gif) repeat-x;}
+.article{ height:500px;}
+.article .one, .two{ height:250px; width:100%}
+.article .container .one .sec1{ width:229px; border-right:1px solid #CCC; height:250px; float:left}
+.article .container .one .sec2{ width:419px; border-right:1px solid #CCC; height:250px; float:left}
+.article .container .one .sec3{ width:300px; height:250px; float:right;}
+.footer{ height:150px; background:url(../images/foot_Bg.jpg) repeat-x}
+
+.header .container ul{ float:right; margin-top:140px}
+.header .container ul li{ float:left; height:20px; line-height:20px; width:90px;}
+.header .container ul li span{ display:block}
+.header .container ul li a{ color:#666}
+.header .container ul li a:hover{ text-decoration:none; color:#606}
+.header .container ul li .shouye{ color:#606}
+
+.banner{ height:240px;}
+.banner .container .s1{ height:240px; width:683px; float:left}
+.banner .container .s2{ height:240px; width:317px; float:left;}
+.banner .container .ban{ margin-top:10px}
+
+.banner .container .s2 .section{ padding-left:30px}
+
+.banner .container .ban{ margin-top:10px}
+/*.banner .container .pp{ float:left}*/
+/*.banner .container .section{ float:left; margin-left:30px}*/
+.banner .container .section p{ margin-bottom:10px}
+.banner .container .section p span{ font-size:16px; color:#666; font-weight:600; }
+.banner .container .section p em{ color:#666; padding-left:5px}
+.banner .container .section ul li{ margin-top:5px}
+.banner .container .section ul li em{ color:#666; margin-right:5px}
+.banner .container .section ul li a{ color:#666;}
+.banner .container .section ul li a:hover{ color:#606; text-decoration:none;}
+.banner .container .section ul .ss{ height:52px; background:url(../images/liebiao_more.gif) no-repeat; line-height:52px; padding-left:10px; margin-left:170px; margin-top:-20px}
+.banner .container .section ul .ss a{ color:#fff; display:block}
+
+
+
+.one .sec1 p{ margin-bottom:10px}
+.one .sec1 p em{ font-size:18px; font-weight:600; font-style:normal; color:#300}
+.one .sec1 p span{ display:block; font-size:10px; color:#666;}
+.one .sec1 p span a{ color:#666; margin-left:110px}
+.one .sec1 p span a:hover{ color:#606; text-decoration:none}
+.one .sec1 li{ margin-top:5px; margin-left:10px}
+.one .sec1 li a{ color:#666;}
+.one .sec1 li a:hover{ color:#606; text-decoration:none}
+.one .sec1 li em{ margin-right:5px; color:#999}
+
+
+.one .sec2{ padding-left:20px; padding-right:20px}
+.one .sec2 .p2{ margin-top:30px;}
+.one .sec2 .p2 .pic1{ margin-right:30px}
+.one .sec2 .p3{ text-align:center; color:#300; font-weight:600; margin-bottom:5px}
+.one .sec2 .p4{ text-indent:2em; line-height:20px; margin-left:30px; color:#666}
+.one .sec2 .p4 a{ color:#C03}
+.one .sec2 .p1 em{font-size:18px; font-weight:600; color:#300}
+.one .sec2 .p1 span{ display:block; color:#666; font-size:10px;}
+.one .sec2 .p1 span a{ color:#666; font-size:10px; margin-left:310px}
+
+.one .sec3{ padding-left:10px;}
+.one .sec3 ul li{ margin-top:10px}
+.one .sec3 ul .l1 a{ font-size:18px; color:#666; font-weight:600}
+.one .sec3 ul .l1 a:hover{ color:#606; text-decoration:none}
+.one .sec3 ul .l3{ margin-left:50px}
+.one .sec3 ul h3{ color:#300;}
+.one .sec3 ul .l4{ color:#666;}
+
+.two ul li{ float:left; margin-top:70px}
+.two ul .lo{ margin-top:-10px}
+
+.two ul .lo { background:url(../images/video.jpg) no-repeat; height:182px; width:230px}
+.two ul .lo .picture{ padding-top:7px; padding-left:9px}
+.two p em{ font-size:22px; font-weight:700}
+.two p span{ margin-left:5px; color:#666}
+.two p span a{ color:#666; margin-left:540px;}
+.two p span a:hover{ color:#606; text-decoration:none}
+
+
+
+
+.footer .container p{ text-align:center}
+.footer .container .pp{ font-size:12px; color:#FFF; padding-top:20px}
+.footer .container .pp a{ color:#fff; margin-left:10px; margin-right:10px }
+.footer .container .sp{ padding-top:25px; color:#FFF}
+.footer .container .sp p{ margin-top:5px}
+.footer .container .sp a{ color:#FFF}
+
+
+
+
+
+
+
+
+

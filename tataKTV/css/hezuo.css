@@ -1,0 +1,161 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+blockquote, body, button, dd, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, hr, input, legend, li, ol, p, pre, td, textarea, th, ul {
+	margin:0;
+	padding:0
+}
+body, button, input, select, textarea {
+	font:12px/1.5 tahoma, arial, 'Hiragino Sans GB', \5b8b\4f53, sans-serif
+}
+h1, h2, h3, h4, h5, h6 {
+	font-size:100%;
+	
+}
+address, cite, dfn, em, var {
+	font-style:normal
+}
+
+small {
+	font-size:12px
+}
+ol, ul {
+	list-style:none
+}
+a {
+	text-decoration:none
+}
+a:hover {
+	text-decoration:underline
+}
+sup {
+	vertical-align:text-top
+}
+sub {
+	vertical-align:text-bottom
+}
+
+fieldset, img {
+	border:0;
+	vertical-align:top
+}
+button, input, select, textarea {
+	font-size:100%
+}
+table {
+	border-collapse:collapse;/* 重合的边框 合并*/
+	border-spacing:0
+}
+
+.clear {
+	clear:both;
+	height:0;
+	font-size:0;
+	overflow:hidden
+}
+.clearfix:after {
+	content:"\0020";
+	display:block;
+	height:0;
+	clear:both;
+	visibility:hidden
+}
+.clearfix {
+	clear:both;
+	zoom:1
+}
+
+/*-------------------------------------------清除默认*/
+
+/*-------------------------------------------整体布局*/
+.header{ height:198px; background:url(../images/top_Bg.jpg) no-repeat center 0, url(../images/body.gif) repeat-x;}
+.bar{ height:181px;}
+.article{ height:900px; margin-bottom:100px}
+.footer{ height:160px; background:url(../images/foot_Bg.jpg) repeat-x}
+
+
+/*-------------------------------------------中心布局*/
+.container{ width:1000px; margin:0 auto}
+.header .container{ height:198px;}
+.bar .container{ height:181px;}
+.article .container{ height:900px;}
+.footer .container{ height:160px;}
+
+
+/*-------------------------------------------中心布局*/
+.aside{ width:250px; height:100%; float:left}
+.content{ width:750px; height:100%; float:left}
+
+
+
+.header  .s1{ float:right; margin-top:140px;}
+.header .s1 li{ float:left; height:20px; width:90px; line-height:20px; text-align:center}
+.header .s1 li span{ display:block}
+.header .s1 li a{ color:#666; height:20px; display:block}
+.header .s1 li a:hover{ color:#603; text-decoration:none}
+
+
+/*-------------------------------------------aside*/
+.article .aside{ padding-top:30px}
+.aside .qi{ margin-left:20px}
+.aside .qi a{ color:#999}
+.aside .qi a:hover{ color:#606}
+
+.aside .d1{ margin-top:20px; margin-left:20px}
+.aside .d1 p{ float:left}
+.aside .d1 p span{ display:block; font-size:10px}
+.aside .d1 .ql{ padding-left:10px; font-size:20px}
+.aside .d1 img{ margin-top:6px}
+
+.aside .d1 .ql:hover{ color:#606}
+.aside  ul{ margin-top:80px; margin-left:30px}
+.aside  ul li{ height:20px; color:#666}
+
+.aside  ul li:hover{ color:#333}
+.aside  .con1{ margin-top:20px;}
+.aside  .con1 a{ font-size:14px; font-weight:bold; color:#666;}
+.aside  .con1 a:hover{ color:#606}
+.aside  .con1 .picc{ margin-top:10px; margin-left:40px}
+.aside .hi{ margin-top:15px}
+.aside h1{ font-size:12px; color:#666;}
+.aside .hi .ty{ color:#999}
+.aside .sd{ margin-top:30px; margin-left:10px}
+.aside .sd p{ margin-top:5px}
+.aside .qi .su{ color:#000;}
+.aside .qi .su:hover{ text-decoration:none}
+.aside  ul li span img{ padding-top:8px; padding-left:50px; display:none}
+.aside  ul li:hover img{ display:inline-block}
+
+/*-------------------------------------------content*/
+
+.content .can .kl{ height:150px}
+.content .can .ra{ margin-top:20px}
+.content .can .kl ul li{ float:left}
+.pic2 h1 a{ color:#000; font-size:18px;  margin-bottom:10px}
+.pic2 p a{ color:#666; line-height:20px}
+.pic2{ margin-top:10px; margin-left:10px}
+.pic2 a:hover{ text-decoration:none}
+.pic2:hover .si{ color:#903}
+
+
+/*-------------------------------------------页脚*/
+
+
+
+
+.footer .container p{ text-align:center}
+.footer .container .pp{ font-size:12px; color:#FFF; padding-top:20px;}
+.footer .container .pp a{ color:#fff; margin-left:10px; margin-right:10px }
+.footer .container .sp{ padding-top:25px; color:#FFF}
+.footer .container .sp p{ margin-top:5px}
+.footer .container .sp a{ color:#FFF}
+
+
+
+
+
+
+
+
+
